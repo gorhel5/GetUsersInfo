@@ -21,4 +21,5 @@ button.addEventListener('click', () => {
     let b = a.pushData(username.value, age.value, password.value)
     users.push(b);
     console.log(users)
+    alert('Thank you!')
 });

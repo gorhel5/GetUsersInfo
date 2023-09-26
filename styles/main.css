@@ -1,19 +1,23 @@
 .wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
 }
 .form {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    text-align: center;
 }
 
 .form__blocks {
     display: flex;
     flex-direction: column;
-}
-.username__text {
+    text-align: left;
 }
 .input {
-    width: 200px;
+
     padding: 5px 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -24,7 +28,7 @@
 }
 
 .btn {
-    width: 250px;
+    
     padding: 10px 15px;
     border: 1px solid black;
     border-radius: 5px;
